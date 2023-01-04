@@ -3,6 +3,7 @@
     margin: 0px;
 }
 
+
 html{
     height: 100%;
     background: linear-gradient(#0046ae, #9198e5);
@@ -15,11 +16,34 @@ div{
     height: 450px;
     width: 270px;
     background: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
 }
 
 
 div:hover{
    background: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+}
+
+
+img{
+    height: 250px;
+    width: 210px;
+    margin: 15px 30px;
+    border-radius: 10px;
+}
+
+
+img:hover{
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
+}
+
+
+.p1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
