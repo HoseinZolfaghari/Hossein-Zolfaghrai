@@ -1,4 +1,4 @@
-/* Hossein Zolfaghari-40131846- WEBHW */
+/* Hossein Zolfaghari-40131846-WEBHW */
 *{
     margin: 0px;
 }
@@ -27,10 +27,11 @@ div:hover{
 
 
 img{
-    height: 250px;
+    height: 240px;
     width: 210px;
     margin: 15px 30px;
-    border-radius: 10px;
+    margin-bottom: 0px;
+    border-radius: 8px;
 }
 
 
@@ -43,7 +44,7 @@ img:hover{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    padding-top: 15px;
+    padding-top: 10px;
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -55,6 +56,7 @@ img:hover{
     color: white;
     font-size: 18px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
 }
 
 
@@ -70,6 +72,57 @@ img:hover{
 
 .p3:hover{
     color: #2e2e2e;
-    transition: 1.5s;
+    transition: 1s;
     cursor:pointer;
+}
+
+
+.p4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+
+.p5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 153px;
+    display: inline-block;
+}
+
+
+.play, .back, .for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 50px 50px ;
+}
+
+
+.back:hover, .for:hover, .play:hover{
+    border-color: #bebebe;
+    cursor: pointer;
+}
+
+
+.range1{
+    margin-left: 15px;
+    width: 240px;
+}
+
+
+#ul1{
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+
+#list1{
+    display: inline-block;
+    padding-left: 25px;
 }
