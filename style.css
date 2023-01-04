@@ -1,4 +1,4 @@
-/* Hossein Zolfaghari-40131846-WEBHW */
+/* Hossein Zolfaghari-40131846- WEBHW */
 *{
     margin: 0px;
 }
@@ -46,4 +46,30 @@ img:hover{
     padding-top: 15px;
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.p2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.p3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #666666;
+    font-size: 15px;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 5px;
+}
+
+
+.p3:hover{
+    color: #2e2e2e;
+    transition: 1.5s;
+    cursor:pointer;
 }
